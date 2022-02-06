@@ -25,6 +25,8 @@ allEdges = list(AllUsers.edges)  # List of all edges
 
 print("The num of nodes: ", nx.number_of_nodes(AllUsers))
 print("The num of edges:", nx.number_of_edges(AllUsers))
+nx.draw(AllUsers, with_labels=False)
+plt.show()
 
 ############################### Distributions ###########################################
 
